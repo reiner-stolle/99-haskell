@@ -1,8 +1,9 @@
 # 99-haskell
 
-based off https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems
+Based off https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems
 
-## my attempt to solve 99 haskell problems
+## My attempt to solve the notorious H-99 ("Ninety-Nine Haskell Problems")
+## Some problems I couldn't solve and are similar to proposed anwsers on the Haskell wiki.
 
 ## Files explained 
 
