@@ -47,3 +47,12 @@ dupli (x:xs) = [x] ++ [x] ++ dupli (xs)
 
 -- -- ########Exercise 20################
 -- (*) Remove the K'th element from a list.
+
+delete_kth :: [a] -> Int -> [a]
+delete_kth [] n = error "empty List or element not in list"
+delete_kth (x:[]) b 
+                |b-1 == 0 = []
+                |otherwise = delete_kth [] (b-2)
+delete_kth (x:xs) b 
+                |b-1 == 0 = xs
+                |otherwise = [x] ++ delete_kth xs (b-1) 
