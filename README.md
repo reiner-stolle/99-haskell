@@ -8,7 +8,7 @@ Based off https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems
 ## Files explained 
 
 - playground.hs is as the name suggests just random haskell code which I tested around with
-- section1.hs (exercise 1-10)      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Lists
+- section1.hs (exercise 1-10)      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Lists
 - section2.hs (exercise 11-20)     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   more Lists
 - section3.hs (exercise 21-30)     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   even more Lists
 - section4.hs (exercise 31-40)     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Arithmetic
