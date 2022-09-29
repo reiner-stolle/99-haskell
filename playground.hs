@@ -28,3 +28,8 @@ exampleTree2 = UI[UL 3, UL 2, UI [UL 4]]
 addU :: UTree -> Int 
 addU (UL i) = i
 addU (UI ut) = addL (map addU ut)
+
+-- tying the knot
+cyclic = let x = 0 : y
+             y = 1 : x
+         in  x
