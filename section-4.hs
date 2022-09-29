@@ -37,6 +37,9 @@ co_prime_numb n m
 -- Problem 34
 -- (**) Calculate Euler's totient function phi(m).
 
+
+
+
 -- Problem 35
 -- (**) Determine the prime factors of a given positive integer. 
 -- Construct a flat list containing the prime factors in ascending order.
