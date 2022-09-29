@@ -17,8 +17,8 @@ Based off https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems
 - section7.hs (exercise 61-69)     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   more binary trees
 - section8.hs (exercise 70-73)     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Multiway Trees
 - section9.hs (exercise 80-89)     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Graphs
-- section10.hs (exercise 90-94)    &nbsp;&nbsp;&nbsp;&nbsp;         Msc.
-- section11.hs (exercise 95-99)    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         more Msc.
+- section10.hs (exercise 90-94)    &nbsp;&nbsp;&nbsp;&nbsp;               Msc.
+- section11.hs (exercise 95-99)    &nbsp;&nbsp;&nbsp;&nbsp;               more Msc.
 
 ## Notice
 
