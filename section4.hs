@@ -16,6 +16,13 @@ greatest_common n m
 -- (*) Determine whether two positive integer numbers are coprime. 
 -- Two numbers are coprime if their greatest common divisor equals 1.
 
+
+co_prime_numb :: Int -> Int -> String   
+co_prime_numb n m
+                |greatest_common n m == 1 = "The numbers are coprime"
+                |otherwise = "The numbers are not coprime" 
+
+
 -- Problem 34
 -- (**) Calculate Euler's totient function phi(m).
 
