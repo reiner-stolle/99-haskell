@@ -56,3 +56,10 @@ delete_kth (x:[]) b
 delete_kth (x:xs) b 
                 |b-1 == 0 = xs
                 |otherwise = [x] ++ delete_kth xs (b-1) 
+
+
+-- delete_kth' :: [a] -> Int -> [a]
+-- delete_kth' [] n-1 = error "no elements"
+-- delete_kth' [x] n-1
+--                 |n-1 == 0 = [x] 
+--                 |otherwise = delete_kth [] n-2
