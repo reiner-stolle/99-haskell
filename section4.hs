@@ -23,6 +23,17 @@ co_prime_numb n m
                 |otherwise = "The numbers are not coprime" 
 
 
+-- not sure if this was supposed to yield Bool
+--  __________
+-- |          |
+-- |  Check   |
+-- |  later!  |
+-- |__________|
+-- (\_/)||
+-- (•_•)||
+--   > >|| 
+
+
 -- Problem 34
 -- (**) Calculate Euler's totient function phi(m).
 
