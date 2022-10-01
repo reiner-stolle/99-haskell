@@ -24,18 +24,33 @@ dupli (x:xs) = [x] ++ [x] ++ dupli (xs)
 -- (**) Replicate the elements of a list a given number of times.
 -- repli' :: [a] -> Int -> [a]
 
-repli' :: [a] -> Int -> [a]
-repli' (x:xs) 1 = (x:xs)
-repli' (x:xs) n = (x:xs) ++ (x:xs) ++ repli' (x:xs) (n-1) 
+-- Example in Haskell:
+-- λ> repli "abc" 3
+-- "aaabbbccc"
 
+-- repli' :: [a] -> Int -> [a]
+-- repli' 
 
 -- ########Exercise 16################
 -- (**) Drop every N'th element from a list.
+
+-- Example in Haskell:
+-- λ> dropEvery "abcdefghik" 3
+-- "abdeghk"
+
+-- dropEvery' :: [a] -> Int -> [a]
+
+
 
 
 -- ########Exercise 17################
 -- Split a list into two parts; the length of the first part is given.
 -- Do not use any predefined predicates.
+
+-- Example in Haskell:
+-- λ> split "abcdefghik" 3
+-- ("abc", "defghik")
+
 
 -- ########Exercise 18################
 -- (**) Extract a slice from a list.
