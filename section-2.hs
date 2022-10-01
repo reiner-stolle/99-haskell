@@ -24,6 +24,11 @@ dupli (x:xs) = [x] ++ [x] ++ dupli (xs)
 -- (**) Replicate the elements of a list a given number of times.
 -- repli' :: [a] -> Int -> [a]
 
+repli' :: [a] -> Int -> [a]
+repli' (x:xs) 1 = (x:xs)
+repli' (x:xs) n = (x:xs) ++ (x:xs) ++ repli' (x:xs) (n-1) 
+
+
 -- ########Exercise 16################
 -- (**) Drop every N'th element from a list.
 
